@@ -1,101 +1,19 @@
-# Personal Portfolio Website
- '''Create a personal portfolio showcasing your skills,projects, and resume. Use HTML for structure, CSS for styling, and add a touch of JavaScript forinteractivity.Basic ChatbotCreate a text-based chatbot that can have
- conversations with users. You can use natural language processing libraries like NLTK or spaCy to make your chatbot more conversational.'''
-python
-import random
-import nltk
-from nltk.chat.util import Chat, reflections
+CodeAlpha Internship Tasks Repository
+Welcome to the codealpha_tasks GitHub repository! This repository contains the projects completed as part of the CodeAlpha Internship, showcasing fundamental Python programming skills across three beginner-friendly tasks.
 
-# Define the patterns and responses for the chatbot
-pairs = [
-    [
-        r"my name is (.*)",
-        ["Hello %1, how can I help you today?",]
-    ],
-    [
-        r"what is your name ?",
-        ["My name is ChatBot, how can I assist you?",]
-    ],
-    [
-        r"how are you ?",
-        ["I am doing well, thank you for asking!", "I'm great, how about you?",]
-    ],
-    [
-        r"what is your age ?",
-        ["I am an AI, so I don't have an age.", "I am a chatbot, I don't age.",]
-    ],
-    [
-        r"what (.*) you (.*) ?",
-        ["I can't do that, I'm just a chatbot.", "I'm sorry, I can't %2.",]
-    ],
-    [
-        r"quit",
-        ["Bye! Take care.", "It was nice talking to you. Goodbye!",]
-    ],
-    [
-        r"(.*)",
-        ["That's interesting. Tell me more.", "I see. Can you elaborate?", "I understand.",]
-    ]
-]
+Contents of the Repository:
+1. Task 1 – Hangman Game
+A classic word-guessing game built with Python. The user attempts to guess a randomly selected word by inputting one letter at a time. The game ends when the user either correctly guesses the word or exceeds the allowed number of incorrect attempts. It demonstrates basic logic, loops, and string manipulation.
 
-# Define the reflections dictionary for handling user input
-reflections = {
-    "i am": "you are",
-    "i was": "you were",
-    "i": "you",
-    "my": "your",
-    "you are": "I am",
-    "you were": "I was",
-    "you": "I",
-    "your": "my",
-}
+2. Task 2 – Stock Portfolio Tracker
+A command-line Python application that lets users manage a virtual stock portfolio. Users can add, remove, and view stocks along with their real-time prices (using yfinance). It calculates the total portfolio value and gives insight into how portfolios work in real life.
 
-# Create the chatbot using the Chat class from NLTK
-chatbot = Chat(pairs, reflections)
+3. Task 3 – Basic Chatbot
+A simple rule-based chatbot built using Python and the nltk library. It can respond to greetings and simple queries using predefined response patterns. This task focuses on natural language processing basics and interactive program design.
 
-# Start the conversation
-print("Hi, I'm ChatBot. How can I help you today?")
-chatbot.converse()
+How to Run Each Project:
 
-
-Explanation:
-
-1. Import necessary libraries:
-   - random for generating random responses.
-   - nltk for natural language processing, specifically the Chat class for chatbot functionality.
-   - nltk.chat.util for the reflections dictionary to handle user input variations.
-
-2. Define patterns and responses:
-   - pairs is a list of lists, where each inner list represents a pattern-response pair.
-   - Patterns use regular expressions to match user input.
-   - Responses can be a list of strings, allowing for variations.
-
-3. Define reflections:
-   - reflections is a dictionary mapping common user input variations to their corresponding replacements.
-   - This helps make the chatbot more conversational by handling different ways of expressing the same meaning.
-
-4. Create the chatbot:
-   - chatbot = Chat(pairs, reflections) creates an instance of the Chat class, passing in the patterns and reflections.
-
-5. Start the conversation:
-   - print("Hi, I'm ChatBot. How can I help you today?") prints a greeting message.
-   - chatbot.converse() starts the conversation loop, where the chatbot will listen to user input, match it to patterns, and provide responses.
-
-How to run the code:
-
-1. Install NLTK:
-   bash
-   pip install nltk
-   
-2. Download NLTK data:
-   python
-   import nltk
-   nltk.download('punkt')  # for sentence tokenization
-   nltk.download('averaged_perceptron_tagger')  # for part-of-speech tagging
-   
-3. Run the Python code:
-   bash
-   python chatbot.py
-   
-
-Now you can interact with the chatbot in the terminal. 
+Each task is organized :
+Task1_Hangman/
+Task2_PortfolioTracker/
+Task3_Chatbot/
