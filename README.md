@@ -1,19 +1,222 @@
-CodeAlpha Internship Tasks Repository
-Welcome to the codealpha_tasks GitHub repository! This repository contains the projects completed as part of the CodeAlpha Internship, showcasing fundamental Python programming skills across three beginner-friendly tasks.
+<div align="center">
 
-Contents of the Repository:
-1. Task 1 – Hangman Game
-A classic word-guessing game built with Python. The user attempts to guess a randomly selected word by inputting one letter at a time. The game ends when the user either correctly guesses the word or exceeds the allowed number of incorrect attempts. It demonstrates basic logic, loops, and string manipulation.
+#  CodeAlpha Python Internship
 
-2. Task 2 – Stock Portfolio Tracker
-A command-line Python application that lets users manage a virtual stock portfolio. Users can add, remove, and view stocks along with their real-time prices (using yfinance). It calculates the total portfolio value and gives insight into how portfolios work in real life.
+### *A collection of Python projects completed during the CodeAlpha Internship.*
 
-3. Task 3 – Basic Chatbot
-A simple rule-based chatbot built using Python and the nltk library. It can respond to greetings and simple queries using predefined response patterns. This task focuses on natural language processing basics and interactive program design.
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/codealpha_tasks?style=for-the-badge"/>
 
-How to Run Each Project:
+---
 
-Each task is organized :
-Task1_Hangman/
-Task2_PortfolioTracker/
-Task3_Chatbot/
+### 📌 Internship Project Repository
+
+This repository contains all the tasks completed during my **CodeAlpha Python Programming Internship**. Each project demonstrates different programming concepts including Python fundamentals, object-oriented programming, APIs, file handling, data structures, and Natural Language Processing.
+
+</div>
+
+---
+
+# 📚 Projects Included
+
+| Project                        | Description                                                                 | Concepts Used                            |
+| ------------------------------ | --------------------------------------------------------------------------- | ---------------------------------------- |
+| 🎮 **Hangman Game**            | Classic word guessing game with limited attempts.                           | Loops, Strings, Random Module, Functions |
+| 📈 **Stock Portfolio Tracker** | Manage virtual stocks and calculate portfolio value using live market data. | APIs, Dictionaries, Lists, File Handling |
+| 🤖 **Basic Chatbot**           | Rule-based chatbot capable of answering simple conversations.               | NLP, NLTK, Pattern Matching              |
+
+---
+
+# 📂 Repository Structure
+
+```text
+CodeAlpha_Tasks
+│
+├── Task1_Hangman
+│   ├── hangman.py
+│   └── words.txt
+│
+├── Task2_PortfolioTracker
+│   ├── portfolio.py
+│   └── requirements.txt
+│
+├── Task3_Chatbot
+│   ├── chatbot.py
+│   └── intents.py
+│
+└── README.md
+```
+
+---
+
+# 🎮 Task 1 — Hangman Game
+
+### 📖 Description
+
+A Python implementation of the famous Hangman game where the player guesses a hidden word one letter at a time.
+
+### ✨ Features
+
+* Random word generation
+* Limited incorrect attempts
+* Input validation
+* Win/Loss detection
+* Console-based gameplay
+
+### 🛠 Technologies
+
+* Python
+* Random Module
+* String Manipulation
+
+---
+
+# 📈 Task 2 — Stock Portfolio Tracker
+
+### 📖 Description
+
+A command-line portfolio tracker that allows users to maintain a virtual stock portfolio and calculate its total value.
+
+### ✨ Features
+
+* Add Stocks
+* Remove Stocks
+* Display Portfolio
+* Live Stock Prices
+* Portfolio Value Calculation
+
+### 🛠 Technologies
+
+* Python
+* yfinance API
+* Dictionaries
+* Lists
+
+---
+
+# 🤖 Task 3 — Basic Chatbot
+
+### 📖 Description
+
+A beginner-friendly chatbot capable of responding to greetings and predefined questions using Natural Language Processing techniques.
+
+### ✨ Features
+
+* Greeting Detection
+* Simple Conversations
+* Rule-Based Responses
+* Easy to Extend
+
+### 🛠 Technologies
+
+* Python
+* NLTK
+* Regex
+* String Matching
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/CodeAlpha_Tasks.git
+```
+
+Move inside the project
+
+```bash
+cd CodeAlpha_Tasks
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Running the Projects
+
+### Hangman
+
+```bash
+cd Task1_Hangman
+python hangman.py
+```
+
+### Portfolio Tracker
+
+```bash
+cd Task2_PortfolioTracker
+python portfolio.py
+```
+
+### Chatbot
+
+```bash
+cd Task3_Chatbot
+python chatbot.py
+```
+
+---
+
+# 💡 Skills Demonstrated
+
+* Python Programming
+* Object-Oriented Programming
+* File Handling
+* APIs
+* Data Structures
+* Natural Language Processing
+* Problem Solving
+* Clean Code Practices
+
+---
+
+# 📸 Screenshots
+
+> Add screenshots of each project here.
+
+```text
+📷 screenshots/
+   ├── hangman.png
+   ├── portfolio.png
+   └── chatbot.png
+```
+
+---
+
+# 🌟 Future Improvements
+
+* GUI using Tkinter
+* Database Integration
+* AI-powered Chatbot
+* Portfolio Visualization
+* Multiplayer Hangman
+* Speech Recognition
+
+---
+
+# 👩‍💻 Author
+
+## **Anisha Garg**
+
+🎓 B.Tech CSE (AI & ML)
+🏫 VIT Bhopal University
+
+**GitHub:** https://github.com/Ani-sha23
+
+---
+
+<div align="center">
+
+### ⭐ If you found this repository useful, don't forget to Star it!
+
+**Thank you for visiting! ❤️**
+
+</div>
