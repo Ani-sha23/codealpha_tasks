@@ -7,7 +7,6 @@
 <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python"/>
 <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
-<img src="https://img.shields.io/github/stars/YOUR_USERNAME/codealpha_tasks?style=for-the-badge"/>
 
 ---
 
